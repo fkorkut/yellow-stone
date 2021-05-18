@@ -8,11 +8,10 @@ import {useStyles} from './Home.style';
 export const Home = (props) => {
     const classes = useStyles();
 
- console.log("HOme props => ",props)
+ 
   return (
     <Skeleton >
       <div className={classes.root}>
-        <p>Home</p>
       <CalculateComponents/>
       </div>
     </Skeleton>

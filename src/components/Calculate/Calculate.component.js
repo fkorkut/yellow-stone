@@ -133,7 +133,7 @@ export const CalculateComponents = () => {
                 onChange={onChangeBalkony}
               >
                 <MenuItem selected value="0">
-                  <em>Seçim Yapınız</em>
+                  Seçim Yapınız
                 </MenuItem>
 
                 <MenuItem value={1}>1 Kenar</MenuItem>
@@ -287,7 +287,7 @@ export const CalculateComponents = () => {
           <UIModal open={openModal} handleClose={() => setOpenModal(false)}>
             <div className={classes.root}>
               <Grid container spacing={3}>
-                <Grid item xs={12}>
+                <Grid item xs={12} sm={12}>
                   <h4>Hesaplama Bilgisi ve Onay</h4>
                 </Grid>
                 <Grid item xs={12} sm={6}>
