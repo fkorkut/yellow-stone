@@ -290,24 +290,24 @@ export const CalculateComponents = () => {
                 <Grid item xs={12} sm={12}>
                   <h4>Hesaplama Bilgisi ve Onay</h4>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={8} sm={6}>
                   <label className="">Toplam Kenar </label>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={4} sm={6}>
                   {Object.keys(calcInfo).length}
                 </Grid>
 
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={8} sm={6}>
                   <label>Toplam Ölçü</label>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={4} sm={6}>
                   {`${totalSize} cm`}
                 </Grid>
 
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={8} sm={6}>
                   <label>Toplam Fiyat</label>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={4} sm={6}>
                   {`${totalAmount} `}
                 </Grid>
                 <Grid item xs={12} sm={6}></Grid>
